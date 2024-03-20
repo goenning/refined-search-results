@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Refined Search Results</h1>
+      <h2>Excluded Domains</h2>
+      <p>
+        Links from domains you enter here will be excluded from the search
+        results
+      </p>
+
+      <textarea
+        id="exclude-input"
+        rows="10"
+        placeholder="example.com
+anotherexample.org"
+      ></textarea>
+      <ul>
+        <li>Enter a single domain per line</li>
+        <li>"linkedin.com" will exclude subdomains like "de.linkedin.com"</li>
+      </ul>
+
+      <h3>Suggestions</h3>
+
+      <h4>Forum</h4>
+      <div class="suggestions">
+        <button data-domain="reddit.com">reddit.com</button>
+        <button data-domain="quora.com">quora.com</button>
+        <button data-domain="medium.com">medium.com</button>
+      </div>
+
+      <h4>Social Media</h4>
+      <div class="suggestions">
+        <button data-domain="twitter.com">twitter.com</button>
+        <button data-domain="instagram.com">instagram.com</button>
+        <button data-domain="facebook.com">facebook.com</button>
+        <button data-domain="linkedin.com">linkedin.com</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Made by
+        <a href="https://twitter.com/goenning" target="_blank">goenning</a>
+        &middot; Sponsored by
+        <a href="https://seogets.com?utm_source=rsr" target="_blank"
+          >SEO Gets</a
+        >
+      </p>
+      <p>
+        <a
+          href="https://github.com/goenning/refined-search-results"
+          target="_blank"
+          >Open Source</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

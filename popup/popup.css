@@ -1,0 +1,87 @@
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  padding: 0px;
+}
+
+body {
+  width: 300px;
+  margin: 0px;
+}
+
+main {
+  padding: 4px 8px;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+h4 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  margin: 4px 0px;
+  font-family: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 16px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 4px;
+}
+
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.suggestions > button {
+  border: 1px solid #ccc;
+  display: inline;
+  border-radius: 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.suggestions > button:hover {
+  background-color: #ccc;
+}
+
+footer {
+  border-top: 1px solid #d4d4d8;
+  color: #52525b;
+  text-align: center;
+  margin-top: 24px;
+}
+
+footer a {
+  color: #2563eb;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 6px;
+}

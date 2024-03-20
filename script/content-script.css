@@ -1,0 +1,16 @@
+.esr-replaced {
+  color: #71717a !important;
+  font-size: 11px;
+}
+
+.esr-replaced a {
+  color: #71717a !important;
+}
+
+.esr-replaced span {
+  margin-left: 2px;
+}
+
+.esr-replaced a:hover {
+  color: #8ab4f8 !important;
+}
