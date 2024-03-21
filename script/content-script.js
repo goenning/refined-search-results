@@ -78,4 +78,5 @@ function replaceLink(node, url) {
 
   const observer = new MutationObserver(callback);
   observer.observe(main, opts);
+  searchAndReplace();
 })();
