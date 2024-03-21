@@ -12,8 +12,6 @@ Maybe you don't like the quality of their content, or they are known for paywall
 2. Configure the list of domains you don't want to see on Google
 3. Enjoy a cleaner search experience ✨
 
-![Refined Search Results](./assets/ss2.png)
-
 ## 📄 License
 
 MIT License
